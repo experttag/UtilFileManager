@@ -4,7 +4,7 @@
 
   <groupId>com.experttag.util</groupId>
   <artifactId>UtilFileManager</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>UtilFileManager</name>
@@ -210,7 +210,7 @@
       </plugin>
    	</plugins>
    </build>
-    <scm>
+   <scm>
 	<connection>scm:git:git@github.com:experttag/UtilFileManager.git</connection>
 	<url>scm:git:git@github.com:experttag/UtilFileManager.git</url>
 	<developerConnection>scm:git:git@github.com:experttag/UtilFileManager.git</developerConnection>	

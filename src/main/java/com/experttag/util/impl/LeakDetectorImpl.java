@@ -1,7 +1,8 @@
 package com.experttag.util.impl;
 
-import org.smartlib.pool.core.ConnectionLeakEvent;
-import org.smartlib.pool.core.ConnectionLeakListener;
+import com.experttag.util.pool.core.ConnectionLeakEvent;
+import com.experttag.util.pool.core.ConnectionLeakListener;
+
 
 /**
  * Created by IntelliJ IDEA.

@@ -5,11 +5,13 @@
 
 package com.experttag.util.pooling.database;
 
-import com.experttag.util.constant.DatabaseConstant;
 import java.sql.Connection;
+
 import org.apache.log4j.Logger;
-import org.smartlib.pool.core.ConnectionPoolException;
-import org.smartlib.pool.core.SmartPoolFactory;
+
+import com.experttag.util.constant.DatabaseConstant;
+import com.experttag.util.pool.core.ConnectionPoolException;
+import com.experttag.util.pool.core.SmartPoolFactory;
 
 /**
  *

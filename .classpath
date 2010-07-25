@@ -2,58 +2,33 @@
 <classpath>
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/test/java"/>
-	<classpathentry kind="lib" path="src/main/resources/activation.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/commons-codec-1.3.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/commons-httpclient-3.0-rc4.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/commons-logging.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/dom4j-full.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/htmllexer.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/htmlparser.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/JAXB2_20070122.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/log4j-1.2.14.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/log4j-1.2.15.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/mail.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/mysql-connector-java-5.0.5-bin.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/smartpool.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/struts/antlr.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/struts/commons-beanutils.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/struts/commons-digester.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/struts/commons-fileupload-1.2.1.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/struts/commons-io-1.3.2.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/struts/commons-logging.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/struts/commons-validator.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/struts/jakarta-oro.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/struts/New Folder/commons-fileupload-1.0.jar"/>
-	<classpathentry kind="lib" path="src/main/resources/struts/struts.jar"/>
-	<classpathentry kind="lib" path="target/classes/activation.jar"/>
-	<classpathentry kind="lib" path="target/classes/commons-codec-1.3.jar"/>
-	<classpathentry kind="lib" path="target/classes/commons-httpclient-3.0-rc4.jar"/>
-	<classpathentry kind="lib" path="target/classes/commons-logging.jar"/>
-	<classpathentry kind="lib" path="target/classes/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
-	<classpathentry kind="lib" path="target/classes/dom4j-full.jar"/>
-	<classpathentry kind="lib" path="target/classes/htmllexer.jar"/>
-	<classpathentry kind="lib" path="target/classes/htmlparser.jar"/>
-	<classpathentry kind="lib" path="target/classes/JAXB2_20070122.jar"/>
-	<classpathentry kind="lib" path="target/classes/log4j-1.2.14.jar"/>
-	<classpathentry kind="lib" path="target/classes/log4j-1.2.15.jar"/>
-	<classpathentry kind="lib" path="target/classes/mail.jar"/>
-	<classpathentry kind="lib" path="target/classes/mysql-connector-java-5.0.5-bin.jar"/>
-	<classpathentry kind="lib" path="target/classes/smartpool.jar"/>
-	<classpathentry kind="lib" path="target/classes/struts/antlr.jar"/>
-	<classpathentry kind="lib" path="target/classes/struts/commons-beanutils.jar"/>
-	<classpathentry kind="lib" path="target/classes/struts/commons-digester.jar"/>
-	<classpathentry kind="lib" path="target/classes/struts/commons-fileupload-1.2.1.jar"/>
-	<classpathentry kind="lib" path="target/classes/struts/commons-io-1.3.2.jar"/>
-	<classpathentry kind="lib" path="target/classes/struts/commons-logging.jar"/>
-	<classpathentry kind="lib" path="target/classes/struts/commons-validator.jar"/>
-	<classpathentry kind="lib" path="target/classes/struts/jakarta-oro.jar"/>
-	<classpathentry kind="lib" path="target/classes/struts/New Folder/commons-fileupload-1.0.jar"/>
-	<classpathentry kind="lib" path="target/classes/struts/struts.jar"/>
-	<classpathentry kind="lib" path="target/UtilFileManager-1.0-SNAPSHOT.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/activation.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/antlr.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/commons-digester.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/commons-fileupload-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/commons-httpclient-3.0-rc4.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/commons-validator.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/dom4j-full.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/htmllexer.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/htmlparser.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/jakarta-oro.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/JAXB2_20070122.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/mail.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/mysql-connector-java-5.0.5-bin.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
 	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/smartpool.jar"/>
 	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/smartpool_1.5.jar"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/struts-1.2.9-javadoc.zip"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/experttag/UtilFileManager/src/main/resources/struts.jar"/>
 	<classpathentry kind="output" path="target/test-classes"/>
 </classpath>

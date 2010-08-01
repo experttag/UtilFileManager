@@ -17,6 +17,13 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>ssh-repository</id>
+      <url>scpexe://174.93.15.210/home/simar/.m2/repository</url>
+    </repository>
+  </distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -186,6 +193,15 @@
     </dependency>
   </dependencies>
   <build>
+    <extensions>
+      <!-- Enabling the use of FTP -->
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+         <artifactId>wagon-ssh-external</artifactId>
+         <version>1.0-beta-6</version>
+      </extension>
+    </extensions>
+    
     <plugins>
       <plugin>
     	<groupId>org.apache.maven.plugins</groupId>

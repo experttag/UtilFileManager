@@ -15,18 +15,18 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-   <distributionManagement>
+  <distributionManagement>
        <repository>
          <id>ubuntu.gateway.2wire.net</id>
          <name>ubuntu.gateway.2wire.net-releases</name>
-	 <url>http://${artifactory.host}:${artifactory.port}/artifactory/libs-releases-local</url>
+	 <url>http://ubuntu:8081/artifactory/libs-releases-local</url>
        </repository>
        <snapshotRepository>
          <id>ubuntu.gateway.2wire.net</id>
          <name>ubuntu.gateway.2wire.net-snapshots</name>
-	 <url>http://${artifactory.host}:${artifactory.port}/artifactory/libs-snapshots-local</url>
+	 <url>http://ubuntu:8081/artifactory/libs-snapshots-local</url>
         </snapshotRepository>
-   </distributionManagement> 
+   </distributionManagement>  
    <dependencies>
         <dependency>
             <groupId>junit</groupId>

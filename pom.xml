@@ -16,11 +16,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <distributionManagement>
-        <repository>
-            <id>ssh-repository</id>
-	    <url>scpexe://174.93.15.210/greenworks/repos/maven</url>
-        </repository>
+       <repository>
+         <id>ubuntu.gateway.2wire.net</id>
+         <name>ubuntu.gateway.2wire.net-releases</name>
+         <url>http://ubuntu:8081/artifactory/libs-releases-local</url>
+       </repository>
+       <snapshotRepository>
+         <id>ubuntu.gateway.2wire.net</id>
+         <name>ubuntu.gateway.2wire.net-snapshots</name>
+         <url>http://ubuntu:8081/artifactory/libs-snapshots-local</url>
+        </snapshotRepository>
     </distributionManagement>
+     
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -28,166 +35,101 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>servlet-api.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/servlet-api.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>activation.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/activation.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>antlr.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/antlr.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>commons-beanutils.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/commons-beanutils.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>commons-codec-1.3.jar</artifactId>
-            <version>1.3</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/commons-codec-1.3.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>commons-fileupload-1.2.1.jar</artifactId>
-            <version>1.2.1</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/commons-fileupload-1.2.1.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>commons-httpclient-3.0-rc4.jar</artifactId>
-            <version>3.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/commons-httpclient-3.0-rc4.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>commons-io-1.3.2.jar</artifactId>
-            <version>1.3.2</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/commons-io-1.3.2.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>commons-logging.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/commons-logging.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>commons-validator.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/commons-validator.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>dom4j-full.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/dom4j-full.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>htmllexer.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/htmllexer.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>jakarta-oro.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/jakarta-oro.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>JAXB2_20070122.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/JAXB2_20070122.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>log4j-1.2.15.jar</artifactId>
-            <version>1.2.15</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/log4j-1.2.15.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>mail.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/mail.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>mysql-connector-java-5.0.5-bin.jar</artifactId>
-            <version>5.0.5</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/mysql-connector-java-5.0.5-bin.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>org-netbeans-modules-java-j2seproject-copylibstask.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/org-netbeans-modules-java-j2seproject-copylibstask.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>smartpool.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/smartpool.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>com.experttag.util</groupId>
-            <artifactId>struts.jar</artifactId>
-            <version>1.0</version>
-            <type>jar</type>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/resources/struts.jar</systemPath>
-        </dependency>
+	<dependency>
+    	    <groupId>javax.servlet</groupId>
+	    <artifactId>servlet-api</artifactId>
+    	    <version>2.5</version>
+	</dependency>
+	<dependency>
+	    <groupId>javax.activation</groupId>
+	    <artifactId>activation</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+
+        
+	<dependency>
+	    <groupId>org.apache.ant</groupId>
+	    <artifactId>ant-antlr</artifactId>	
+	    <version>1.8.1</version>
+	</dependency>
+         
+	<dependency>
+	    <groupId>commons-beanutils</groupId>
+	    <artifactId>commons-beanutils</artifactId>
+	    <version>1.8.3</version>
+	</dependency>
+        
+	<dependency>
+	    <groupId>commons-codec</groupId>
+	    <artifactId>commons-codec</artifactId>
+	    <version>1.3</version>
+	</dependency>
+        
+	<dependency>
+	    <groupId>commons-fileupload</groupId>
+	    <artifactId>commons-fileupload</artifactId>
+	    <version>1.2.1</version>
+	</dependency>
+ 
+	<dependency>
+	    <groupId>commons-httpclient</groupId>
+	    <artifactId>commons-httpclient</artifactId>
+	    <version>3.0-rc4</version>
+	</dependency>
+        
+	<dependency>
+	    <groupId>commons-io</groupId>
+	    <artifactId>commons-io</artifactId>
+	    <version>1.3.2</version>
+	</dependency>
+        
+	<dependency>
+	    <groupId>commons-logging</groupId>
+	    <artifactId>commons-logging</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+        
+	<dependency>
+	    <groupId>commons-validator</groupId>
+	    <artifactId>commons-validator</artifactId>
+	    <version>1.3.1</version>
+	</dependency>
+        
+	<dependency>
+    		<groupId>dom4j</groupId>
+    		<artifactId>dom4j</artifactId>
+    		<version>1.6.1</version>
+	</dependency>
+       
+	<dependency>
+	    <groupId>org.htmlparser</groupId>
+	    <artifactId>htmlparser</artifactId>
+	    <version>1.6</version>
+	</dependency>
+        
+	<dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.16</version>
+	</dependency>
+
+	<dependency>
+	    <groupId>javax.mail</groupId>
+	    <artifactId>mail</artifactId>
+	    <version>1.4.1</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>5.0.5</version>
+	</dependency>  
+	<dependency>
+    		<groupId>struts</groupId>
+    		<artifactId>struts</artifactId>
+    		<version>1.2.9</version>
+	</dependency>
+        
     </dependencies>
     <build>
         <extensions>
@@ -220,4 +162,6 @@
         <url>scm:git:git@github.com:experttag/UtilFileManager.git</url>
         <developerConnection>scm:git:git@github.com:experttag/UtilFileManager.git</developerConnection>
     </scm>
+    <modules>
+    </modules>
 </project>

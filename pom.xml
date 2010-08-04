@@ -15,20 +15,19 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <distributionManagement>
+   <distributionManagement>
        <repository>
          <id>ubuntu.gateway.2wire.net</id>
          <name>ubuntu.gateway.2wire.net-releases</name>
-         <url>http://ubuntu:8081/artifactory/libs-releases-local</url>
+	 <url>http://${artifactory.host}:${artifactory.port}/artifactory/libs-releases-local</url>
        </repository>
        <snapshotRepository>
          <id>ubuntu.gateway.2wire.net</id>
          <name>ubuntu.gateway.2wire.net-snapshots</name>
-         <url>http://ubuntu:8081/artifactory/libs-snapshots-local</url>
+	 <url>http://${artifactory.host}:${artifactory.port}/artifactory/libs-snapshots-local</url>
         </snapshotRepository>
-    </distributionManagement>
-     
-    <dependencies>
+   </distributionManagement> 
+   <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -45,9 +44,7 @@
 	    <artifactId>activation</artifactId>
 	    <version>1.1.1</version>
 	</dependency>
-
-        
-	<dependency>
+        <dependency>
 	    <groupId>org.apache.ant</groupId>
 	    <artifactId>ant-antlr</artifactId>	
 	    <version>1.8.1</version>

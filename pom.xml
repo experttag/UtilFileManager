@@ -19,12 +19,12 @@
        <repository>
          <id>ubuntu.gateway.2wire.net</id>
          <name>ubuntu.gateway.2wire.net-releases</name>
-	 <url>http://ubuntu:8081/artifactory/libs-releases-local</url>
+	 <url>http://experttag.servebbs.com:8081/artifactory/libs-releases-local</url>
        </repository>
        <snapshotRepository>
          <id>ubuntu.gateway.2wire.net</id>
          <name>ubuntu.gateway.2wire.net-snapshots</name>
-	 <url>http://ubuntu:8081/artifactory/libs-snapshots-local</url>
+	 <url>http://experttag.servebbs.com:8081/artifactory/libs-snapshots-local</url>
         </snapshotRepository>
    </distributionManagement>  
    <dependencies>
